@@ -1,25 +1,83 @@
-
-
-
 body{
     background-color: rgb(171, 180, 224);
     font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+    max-width: 800px;
+    
+    
+}
+
+.meeting_block{
+    /* width: px; */
+    width: 80%;
+    background-color: white;
+    align-self: center;
+    margin: 20px 20px 20px 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 10px;
+
 }
 
 h1 {
     color: #22008a;
     text-decoration:underline;
+    font-size: 1cm;
+    margin-top: 2px;
+    margin-bottom:2px;
+    margin-left: 2px;
+    margin-right: 2px;
     
 }
 
+
+/* Text is aligned right so we can see where
+the actual content of the minutes begin */
 h3{
     text-align: right;
+    font-size: 5mm;
 }
 
 h4{
     color:hsl(0, 0%, 88%);
+    font-size: 1wv;
+    display: inline-block;
+
 }
 
 p{
     color:black;
+    font-size: 2dvw;
+    margin: auto;
+    display: block;
+}
+
+img{
+    padding: 100px 200px 100px 200px;
+    position: relative;
+}
+
+
+details{
+    position: static;
+
+    
+
+}
+
+audio{
+    /* max-height: 300px; */
+    /* min-height: 200px; */
+    min-width: 500px;
+}
+
+
+video{
+    height: 350px;
+
+    max-width: 500px;
 }
