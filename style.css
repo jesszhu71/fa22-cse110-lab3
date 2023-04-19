@@ -1,0 +1,25 @@
+
+
+
+body{
+    background-color: rgb(171, 180, 224);
+    font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #22008a;
+    text-decoration:underline;
+    
+}
+
+h3{
+    text-align: right;
+}
+
+h4{
+    color:hsl(0, 0%, 88%);
+}
+
+p{
+    color:black;
+}
