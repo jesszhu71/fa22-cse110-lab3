@@ -2,6 +2,7 @@ body{
     background-color: rgb(171, 180, 224);
     font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
     max-width: 800px;
+    display: grid;
     
     
 }
@@ -20,8 +21,10 @@ body{
     border-color: grey;
     border-width: 2px;
     border-radius: 10px;
+    grid-area: main;
 
 }
+
 
 h1 {
     color: #22008a;
@@ -31,6 +34,7 @@ h1 {
     margin-bottom:2px;
     margin-left: 2px;
     margin-right: 2px;
+    grid-area: header;
     
 }
 
@@ -42,11 +46,32 @@ h3{
     font-size: 5mm;
 }
 
+
+h2.subheader{
+    color:blueviolet;
+}
+
 h4{
     color:hsl(0, 0%, 88%);
     font-size: 1wv;
     display: inline-block;
 
+}
+
+label + input {
+    background-color:bisque;
+}
+
+input ~ button {
+    color: green;
+}
+
+details p {
+    color: pink;
+}
+
+details > summary{
+    color:aquamarine;
 }
 
 p{
@@ -80,4 +105,48 @@ video{
     height: 350px;
 
     max-width: 500px;
+}
+
+
+
+ol, ul{
+    display: flex;
+    flex-direction: column;    
+}
+
+
+
+li{
+    display: flexbox;
+    order: 1;
+}
+
+details{
+    grid-area: footer;
+}
+
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: white;
+    }
+}
+
+
+button:hover{
+    color: green;
+}
+
+#schools{
+    color: blue;
+}
+
+*{
+    border: 5px;
+
+}
+
+
+a[href="https://levelup.gitconnected.com/how-to-add-a-database-to-a-website-8d36d1e77316"]{
+    color: pink;
 }
