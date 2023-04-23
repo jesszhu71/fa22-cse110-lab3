@@ -134,8 +134,14 @@ details{
 
 
 button:hover{
-    color: green;
+    color: blueviolet;
 }
+
+
+p:active {
+    background: #eee;
+  }
+
 
 #schools{
     color: blue;
